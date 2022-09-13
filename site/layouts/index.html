@@ -1,13 +1,14 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "header" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "short-text" .Params.blurb}}
+<!-- {{ partial "short-text" .Params.intro}} -->
 
-{{ partial "2-up" .Params }}
+{{ partial "text-and-image" (dict "heading" .Params.intro.heading "text" .Params.intro.text "imageUrl" .Params.intro.image) }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+<div name="team">
+	{{ partial "4-up" .Params.people }}
+</div>
 
-{{ partial "blog" . }}
 
 {{ end }}

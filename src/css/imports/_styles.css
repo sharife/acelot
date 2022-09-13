@@ -1,0 +1,148 @@
+::selection {
+  background-color: var(--highlight);
+}
+
+/* Used in the navbar */
+.divider-grey {
+  box-shadow: inset 0 -4px 0 var(--grey-1);
+  /* Link hover states */
+  & a {
+    transition: var(--hover-transition);
+  }
+  & ul a:hover, & ul a:focus {
+    box-shadow: inset 0 -4px 0 var(--primary);
+  }
+}
+
+
+#nav-r {
+  display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+  #nav-r {
+    display: inline;
+  }
+  #nav-p {
+    display: none;
+  }
+}
+
+
+#mobile-menu {
+  top:0;
+  left:0;
+  min-width:100vw;
+  min-height:100vh;
+  & a {
+    text-transform: uppercase;
+    transition: var(--hover-transition);
+  }
+  & ul a:hover, & ul a:focus {
+    color: var(--highlight);
+    background-color: var(--black);
+  }
+}
+
+
+#mobile-menu .active {
+  color: var(--highlight);
+}
+
+
+#mobile-menu {
+  display: none;
+}
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  &:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &>div {
+    width: 80%;
+    max-width: 640px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: var(--off-white);
+    color: var(--black);
+  }
+  &>div .scrollme {
+    display: inline-block;
+    max-height:30rem;
+    overflow-y: auto;
+  }
+  header {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+    color: white;
+  }
+}
+
+
+.scrollme::-webkit-scrollbar {
+  width: 10px;
+}
+.scrollme {
+  scrollbar-width: thin;
+  scrollbar-color: var(--black) var(--grey-3);
+}
+.scrollme::-webkit-scrollbar-track {
+  background: var(--black);
+}
+.scrollme::-webkit-scrollbar-thumb {
+  background-color: var(--grey-3);
+  border-radius: 6px;
+  border: 3px solid var(--black);
+}
+
+.modal-close {
+  color: #ccc;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+}
+
+.modal-window .cancel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+.small {
+  font-size:0.75em;
+}

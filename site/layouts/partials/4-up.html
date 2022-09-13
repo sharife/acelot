@@ -3,11 +3,13 @@
 		<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
 		<p class="mb4 mw6">{{.description}}</p>
 
-		<div class="flex-ns flex-wrap mhn2-ns mb3">
-			{{ range .blurbs }}
-				<div class="ph2-ns w-50-ns mb4">
-					<img src="{{ .image }}" alt="" class="center db mb3" style="width: 240px">
-					<p>{{ .text }}</p>
+		<div class="flex flex-wrap mhn2-ns mb3">
+			{{ range .items }}
+				<div class="ph2 w-50 w-25-l mb4">
+					<img src="{{ .img }}" alt="" class="center db mb3 w-100 br1">
+					<p class="lh-title b mb0">{{ .name }}</p>
+					<p class="f6 mb2">{{ .title }}</p>
+					<p class="small">{{ .bio }}</p>
 				</div>
 			{{ end }}
 		</div>

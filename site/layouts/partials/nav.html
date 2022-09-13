@@ -1,19 +1,51 @@
-<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
+<nav id="nav-main" class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
 
 	<!-- Logo -->
-	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-		<img src="/img/logo.svg" alt="Kaldi logo" class="br0 db mb0 w-100"/>
+	<a href="/" class="pa3 db mr4 h-100 w4 flex-none no-underline db">
+		<h3 class="b primary f3"><img src="/img/logo.svg"></h3>
 	</a>
 
 	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
+	<div id="nav-p">
+		<ul class="flex b grey-3">
+			<!-- <li><a href="/about" class="pa3 no-underline db">About</a></li> -->
 
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
+			<li><a href="/team" class="pa3 no-underline db">Team</a></li>
 
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
+			<!-- <li><a href="/careers" class="pa3 no-underline db">Careers</a></li> -->
+
+			<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
+		</ul>
+
+	</div>
+
+	<div id="nav-r" class="br1 pa1 ma3 bg-primary">
+        <a class="white b f4 ph2 no-underline" onclick="javascript:toggleMenu();">&#9776;</a>
+    </div>
+
+</nav>
+
+
+<div id="mobile-menu" class="absolute fixed bg-primary z-max center tc">
+	<a href="/" class="no-underline"><h3 class="b white f3 mt4"><img src="/img/logo.svg" class="mw3"></h3></a>
+	
+	<ul class="pa3 w-80 white center tc b">
+		<!-- <li><a href="/about" class="pa3 no-underline db">About</a></li> -->
+
+		<li><a href="/team" class="pa3 no-underline db">Team</a></li>
+
+		<!-- <li><a href="/careers" class="pa3 no-underline db">Careers</a></li> -->
 
 		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
 	</ul>
 
-</nav>
+	<hr />
+	<p class="pt3 f6 b white center tc w-100"><a class="bg-black br1 pa2 ph3" onclick="javascript:toggleMenu();">&times;</a></p>
+</div>
+
+<script type="text/javascript">
+	function toggleMenu (){
+		$('#mobile-menu').fadeToggle();
+	}
+</script>
+

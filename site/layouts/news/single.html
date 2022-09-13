@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+  <div class="mw6 center ph3 pv4">
+    <h1 class="f2 lh-title b mb2">{{.Title}}</h1>
+    <div class="flex justify-between grey-3">
+      <p class="f6">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p class="f6 ttc">{{ .Params.category }}</p>
+    </div>
+    <hr />
+    <div class="cms mw6">
+      <p>{{ .Description }}</p>
+      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+      {{ if .Params.videos }}
+          <div class="mb4">
+            {{ range .Params.videos }}
+              {{ partial "youtube" (dict "id" .id) }}
+            {{ end }}
+          </div>
+        {{ end }}
+      {{ .Content }}
+    </div>
+  </div>
+{{ end }}
