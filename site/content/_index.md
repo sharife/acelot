@@ -4,7 +4,7 @@ subtitle: Acelot is a development stage biopharmaceutical company focused on the
 image: /img/test-bg.svg
 intro:
     heading: "A Unified Approach"
-    image: img/fpo.png
+    image: img/diagram.svg
     text: "Our novel machine learning and in vitro assay platform identifies small molecules that act specifically upon toxic forms of proteins found in neurodegenerative diseases."
 people:
   heading: Our Team
