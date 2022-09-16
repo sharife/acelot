@@ -1,5 +1,3 @@
-// JS Goes here - ES6 supported
-
 import "./css/main.css";
 
 
@@ -10,12 +8,12 @@ $(document).ready(function() {
         /* Check the location of each desired element */
         $('.hideme').each( function(i){
             
-            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() * .5);
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() * .25);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
-                $(this).animate({'opacity':'1', 'padding-top': '-10px'},350);
+                $(this).animate({'opacity':'1'},350);
             }
         });
     });
@@ -44,6 +42,15 @@ $(function() {
 });
 
 
+
+$(function(){  // $(document).ready shorthand
+  $('.fade-1').delay(200).animate({'opacity':'1'},700);
+  $('.fade-2').delay(500).animate({'opacity':'1'},700);
+  $('.fade-3').delay(1000).animate({'opacity':'1'},700);
+  $('.fade-4').delay(1500).animate({'opacity':'1'},700);
+  $('.fade-5').delay(2500).animate({'opacity':'1'},700);
+  $('.fade-6').delay(3500).animate({'opacity':'1'},700);
+});
 
 
 // Select all links with hashes

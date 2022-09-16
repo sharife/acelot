@@ -4,11 +4,14 @@
 
 <!-- {{ partial "short-text" .Params.intro}} -->
 
+<div class="fade-4">
+
 {{ partial "text-and-image" (dict "heading" .Params.intro.heading "text" .Params.intro.text "imageUrl" .Params.intro.image) }}
 
-<div name="team">
+<div name="team" class="hideme">
 	{{ partial "4-up" .Params.people }}
 </div>
 
+</div>
 
 {{ end }}
