@@ -13,6 +13,7 @@ people:
       title: CEO, MBA, PhD
       img: /img/profile-katie.jpg
       bio: Leader in building data-driven biotech companies
+      link: https://www.linkedin.com/in/katieplaney
     - name: Vidhu Mathur
       title: Director of Research, PhD
       img: /img/fpo.png
