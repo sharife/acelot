@@ -16,15 +16,18 @@ people:
       link: https://www.linkedin.com/in/katieplaney
     - name: Vidhu Mathur
       title: Director of Research, PhD
-      img: /img/profile-katie-bw.jpg
+      img: /img/profile-vidhu.jpg
       bio: Neurodegenerative preclinical research expert
+      link: https://www.linkedin.com/in/vidhumathur
     - name: Ambuj Singh
       title: Founder, PhD
       img: /img/profile-ambuj.jpg
       bio: Extensive research in machine learning and data analytics applied to biology and chemistry
+      link: https://www.linkedin.com/in/ambuj-singh-71958a6
     - name: Kevin Burk
       title: Data Scientist, MS
       img: /img/profile-kevin.jpg
       bio: Software and machine learning expert
+      link: #
 ---
 
