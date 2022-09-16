@@ -11,20 +11,20 @@ people:
   items:
     - name: Katie Planey
       title: CEO, MBA, PhD
-      img: /img/profile-katie.jpg
+      img: /img/profile-katie-bw.jpg
       bio: Leader in building data-driven biotech companies
       link: https://www.linkedin.com/in/katieplaney
     - name: Vidhu Mathur
       title: Director of Research, PhD
-      img: /img/fpo.png
+      img: /img/profile-katie-bw.jpg
       bio: Neurodegenerative preclinical research expert
     - name: Ambuj Singh
       title: Founder, PhD
-      img: /img/fpo.png
+      img: /img/profile-ambuj.jpg
       bio: Extensive research in machine learning and data analytics applied to biology and chemistry
     - name: Kevin Burk
       title: Data Scientist, MS
-      img: /img/fpo.png
+      img: /img/profile-kevin.jpg
       bio: Software and machine learning expert
 ---
 

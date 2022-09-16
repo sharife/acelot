@@ -5,14 +5,16 @@
 
 		<div class="flex flex-wrap mhn2-ns mb3">
 			{{ range .items }}
-				<div class="ph2 w-50 w-25-l mb4">
-					<img src="{{ .img }}" alt="" class="center db mb3 w-100 br1">
-					<p class="lh-title b mb0">{{ .name }}</p>
-					<p class="f6 mb2">{{ .title }}</p>
-					<p class="small mb1">{{ .bio }}</p>
-					{{ if .link }}
-						<a href="{{.link}}" target="_blank"><img src="/img/icon-linkedin.png" class="w1 mb2 raise" /></a>
-					{{ end }}
+				<div class="ph2 w-100 w-50-l mb4 flex">
+					<div class="w-25 pr3"><img src="{{ .img }}" alt="" class="center db mb3 w-100 br1"></div>
+					<div class="w-75">
+						<p class="lh-title b mb0">{{ .name }}</p>
+						<p class="f6 mb2">{{ .title }}</p>
+						<p class="small mb1">{{ .bio }}</p>
+						{{ if .link }}
+							<a href="{{.link}}" target="_blank"><img src="/img/icon-linkedin.png" class="w1 mb2 raise" /></a>
+						{{ end }}
+					</div>
 				</div>
 			{{ end }}
 		</div>
