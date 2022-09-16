@@ -1,7 +1,7 @@
 ---
 title: "New leads. New hope."
 subtitle: Acelot is a development stage biopharmaceutical company focused on therapies for Alzheimer’s Disease and central nervous system disorders. 
-image: /img/test-bg.svg
+image: /img/neurons-bg.jpg
 intro:
     heading: "A Unified Approach"
     image: img/diagram.png
@@ -25,9 +25,5 @@ people:
       title: Data Scientist, MS
       img: /img/fpo.png
       bio: Software and machine learning expert
-about:
-    heading: Predictable and Safe
-    image: img/fpo.png
-    text: Our proprietary JPS technology allows us to develop on-target therapies with a high degree of therapeutic predictability. Acelot's drug discovery pipeline includes several compound families for Alzheimer's disease. These compounds span a variety of mechanisms-of-action and have been validated in a number of in vitro assays to date.
 ---
 
