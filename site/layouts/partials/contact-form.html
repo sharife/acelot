@@ -4,19 +4,19 @@
   <h4 class="f3 b lh-title mb0 tc">Connect with us</h4>
   <p class="small">Please contact us for more information concerning our science, employment, investor and partner interest.</p>
 
-  <form action="" netlify>
+  <form name="contact" action="/success.html" netlify>
     <div class="flex-l mhn1-l">
       <!-- Name -->
       <div class="w-50-l pr1-l">
         <fieldset>
-          <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2">
+          <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2" required>
           <label for="name">Name</label>
         </fieldset>
       </div>
       <!-- Email -->
       <div class="w-50-l">
         <fieldset>
-          <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2">
+          <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2" required>
           <label for="email">Email</label>
         </fieldset>
       </div>
@@ -24,7 +24,7 @@
 
     <!-- Message -->
     <fieldset>
-      <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80" class="w-100"></textarea>
+      <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80" class="w-100" required></textarea>
       <label for="message">Your message</label>
     </fieldset>
     <!-- Button -->

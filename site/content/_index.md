@@ -1,6 +1,6 @@
 ---
 title: "New leads. New hope."
-subtitle: Acelot is a development stage biopharmaceutical company focused on therapies for Alzheimer’s Disease and central nervous system disorders. 
+subtitle: Acelot is a development stage biopharmaceutical company focused on therapies for Alzheimer’s Disease and neurodegenerative disorders. 
 image: /img/neurons-bg.jpg
 intro:
     heading: "A Unified Approach"
