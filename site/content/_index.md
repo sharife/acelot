@@ -24,6 +24,11 @@ people:
       img: /img/profile-ambuj.jpg
       bio: UCSB Computer Science Professor with research expertise in machine learning applied to biology and chemistry
       link: https://www.linkedin.com/in/ambuj-singh-71958a6
+    - name: Jacob Schwarz
+      title: VP of Research, Chemistry
+      img: /img/profile-jacob.jpg
+      bio: Biotech leader and medicinal chemistry expert in small molecules for neurodegenerative disorders
+      link: https://www.linkedin.com/in/jacob-schwarz-ba18623/
     - name: Kevin Burk
       title: Data Scientist, MS
       img: /img/profile-kevin.jpg
