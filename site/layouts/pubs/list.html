@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+{{ partial "header" (dict "imageUrl" "/img/fpo.png" "title" "Featured work") }}
+
+<div class="mw7 center">
+  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+      {{ range (.Paginator 10).Pages.ByPublishDate.Reverse }}
+          <div class="w-100-ns ph1-ns flex">
+            {{ .Render "li"}}
+          </div>
+      {{ end }}
+  </ul>
+  {{ partial "pagination" . }}
+</div>
+
+{{end}}

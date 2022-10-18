@@ -1,0 +1,17 @@
+<a href="{{ .Params.link }}" target="_blank" class="no-underline pa3 bb br0 mb2 db raise w-100">
+	<div class="flex-ns flex-row">
+		{{ if .Params.image }}
+		<div class="mw5 mr3-ns">
+			<img src="{{.Params.image}}" alt="" class="center db mb3 w-100 br1" style="min-width:200px;">
+		</div>
+		{{ end }}
+		<div>
+			{{ if eq .Params.category "related" }}
+			<h4 class="f6" style="font-size: 0.6rem;">RELATED</h4>
+			{{ end }}
+			<h2 class="f5 b lh-title mb1 grey-4">{{ .Title }}</h2>
+			<p class="f6 grey-3 lh-title mb2 ttu" style="font-size: 0.6rem;">{{ .Params.citation }}</p>
+			<!-- <p class="f6 link b dib black mb0">View →</p> -->
+		</div>
+	</div>
+</a>
