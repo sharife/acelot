@@ -2,6 +2,10 @@
   background-color: var(--highlight);
 }
 
+body {
+  letter-spacing: 0.02rem;
+}
+
 /* Used in the navbar */
 .divider-grey {
   box-shadow: inset 0 -4px 0 var(--grey-1);
@@ -12,6 +16,29 @@
   & ul a:hover, & ul a:focus {
     box-shadow: inset 0 -4px 0 var(--primary);
   }
+}
+
+#front {
+  width: 100%;
+  height:100%;
+}
+
+#front {
+    background-image: linear-gradient(0deg, #b4bdcb, var(--grey-1), #b4bdcb);
+    background-size: 400% 400%;
+    /*animation: gradient 20s ease infinite;*/
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 

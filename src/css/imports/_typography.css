@@ -17,7 +17,7 @@ body {
   font-weight: var(--body-font-weight);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--off-white);
+  background-color: var(--grey-1);
  }
 
 p {

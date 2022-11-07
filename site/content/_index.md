@@ -1,7 +1,7 @@
 ---
 title: "New leads. New hope."
-subtitle: Acelot is a development stage biopharmaceutical company focused on therapies for Alzheimer’s Disease and neurodegenerative disorders. 
-image: /img/neurons-bg.jpg
+subtitle: Acelot is a development stage biopharmaceutical company focused on therapies for neurodegenerative disorders. 
+image: /img/bg-lines.svg
 intro:
     heading: "A Unified Approach"
     image: img/diagram.png
@@ -29,6 +29,16 @@ people:
       img: /img/profile-jacob.jpg
       bio: Biotech leader and medicinal chemistry expert in small molecules for neurodegenerative disorders
       link: https://www.linkedin.com/in/jacob-schwarz-ba18623/
+    - name: Eric Shao
+      title: Senior Scientist I, PhD
+      img: /img/profile-eric.jpg
+      bio: Expert in molecular biology and tau-targeting therapies
+      link: https://www.linkedin.com/in/eric-qiang-shao-824aab100
+    - name: Marcela Kokes
+      title: Senior Scientist I, PhD
+      img: /img/profile-marcela.jpg
+      bio: Expert in cell biology and mechanistic biology
+      link: https://www.linkedin.com/in/marcelakokes
     - name: Kevin Burk
       title: Data Scientist, MS
       img: /img/profile-kevin.jpg

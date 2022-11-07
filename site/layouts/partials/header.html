@@ -1,22 +1,24 @@
-<div class="pv5 pv6-l ph3 bg-center bg-black cover fade-1" style="background-image: url('{{.imageUrl}}');">
-  <div class="mw7 center ph3 fade-2">
-    <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb3">
-        <p><img src="/img/logo.svg" class="mw5" /></p>
-        <h1 class="f2 b di lh-title mb3 white mw6">
-          {{.title}}
-        </h1>
-      </div>
-      <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
-        <p class="f4 di lh-title mb3 white mw6">
-          {{.subtitle}}
-        </p>
-        {{ end }}
-        <div>
-        <a href="/#team" class="mt3 btn raise fade-3">Meet our team</a>
-        &nbsp;
-        <a href="/#contact" class="mt3 btn-alt raise fade-3">Contact us</a> 
+<div id="front">
+  <div class="pv5 pv6-l ph3 cover fade-1 bg-center" style="background-image: url('{{.imageUrl}}'); background-blend-mode: screen;">
+    <div class="mw7 center ph3 fade-2">
+      <div class="db mb3">
+        <div class="mw7 relative bg-fix-primary">
+          <img src="/img/logo.svg" class="mw4 mw5-ns" /><br />
+          <h1 class="f3 f2-ns b di lh-title mb0 black mw6">
+            {{.title}}
+          </h1>
+        </div>
+        <div class="mw6 mr4 mr2-ns relative bg-fix-primary">
+          {{ if .subtitle }}
+          <p class="f5 f4-ns di lh-title mb3 black">
+            {{.subtitle}}
+          </p>
+          {{ end }}
+          <div>
+          <a href="/#team" class="mt3 btn-alt raise fade-3">Meet our team</a>
+          &nbsp;
+          <a href="/#contact" class="mt3 btn-alt raise fade-3">Contact us</a> 
+          </div>
         </div>
       </div>
     </div>

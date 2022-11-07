@@ -12,7 +12,7 @@
 	--black: rgba(39, 40, 54, 1);
 
 	/* Typography */
-	--font-family: Gantari, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family: Jost, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 	--line-height: 1.5;
 
 	--font-size: 18px;
@@ -33,6 +33,6 @@
 	--spacing-extra-extra-extra-large: 16rem;
 
 	/* Miscelaneous */
-	--border-radius: .25rem;
+	--border-radius: 0rem;
 	--hover-transition: all 150ms ease;
 }
