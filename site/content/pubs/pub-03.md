@@ -1,8 +1,9 @@
 ---
-title: Common structure and toxic function of amyloid oligomers implies a common mechanism of pathogenesis
-citation: Neurology Jan 2006, 66 (1 suppl 1)
-pubdate: December 16, 2005
-category: related
-date: 2005-12-16T00:00:00.000Z
-link: https://n.neurology.org/content/66/1_suppl_1/S74.short
+title: Novel Method for Pharmacophore Analysis by Examining the Joint Pharmacophore Space
+citation: J. Chem. Inf. Model. 2011, 51, 5, 1106–1121
+pubdate: April 13, 2011
+image: /img/pub-figure-03.png
+category: company
+date: 2011-04-13T00:00:00.000Z
+link: https://doi.org/10.1021/ci100503y
 ---

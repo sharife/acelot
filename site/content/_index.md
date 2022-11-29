@@ -1,5 +1,5 @@
 ---
-title: "New leads. New hope."
+title: "A new paradigm for preventing and treating neurodegeneration"
 subtitle: Acelot is a development stage biopharmaceutical company focused on therapies for neurodegenerative disorders. 
 image: /img/bg-lines.svg
 intro:
