@@ -14,11 +14,6 @@ people:
       img: /img/profile-katie.jpg
       bio: Leader in building data-driven biotech companies
       link: https://www.linkedin.com/in/katieplaney
-    - name: Vidhu Mathur
-      title: Director of Research, Preclinical, PhD
-      img: /img/profile-vidhu.jpg
-      bio: Neurodegenerative preclinical research expert
-      link: https://www.linkedin.com/in/vidhumathur
     - name: Ambuj Singh
       title: Founder, PhD
       img: /img/profile-ambuj.jpg
@@ -29,6 +24,16 @@ people:
       img: /img/profile-jacob.jpg
       bio: Biotech leader and medicinal chemistry expert in small molecules for neurodegenerative disorders
       link: https://www.linkedin.com/in/jacob-schwarz-ba18623/
+    - name: Lewis Whitehead
+      title: VP of Research, Computational Discovery
+      img: /img/profile-lewis.jpg
+      bio: Computational medicinal chemist with expertise in small molecule drug discovery
+      link: https://www.linkedin.com/in/lewis-whitehead-4003455/
+    - name: Vidhu Mathur
+      title: Director of Research, Preclinical, PhD
+      img: /img/profile-vidhu.jpg
+      bio: Neurodegenerative preclinical research expert
+      link: https://www.linkedin.com/in/vidhumathur
     - name: Eric Shao
       title: Senior Scientist I, PhD
       img: /img/profile-eric.jpg
