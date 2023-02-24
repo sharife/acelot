@@ -44,6 +44,11 @@ people:
       img: /img/profile-marcela.jpg
       bio: Expert in cell biology and mechanistic biology
       link: https://www.linkedin.com/in/marcelakokes
+    - name: Shruti Arya
+      title: Senior Scientist I, PhD
+      img: /img/profile-shruti.jpg
+      bio: Expert in protein biophysics/biochemistry and molecular mechanisms of neurodegenerative diseases
+      link: https://www.linkedin.com/in/aryashruti
     - name: Kevin Burk
       title: Data Scientist, MS
       img: /img/profile-kevin.jpg
