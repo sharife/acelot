@@ -53,5 +53,10 @@ people:
       title: Data Scientist, MS
       img: /img/profile-kevin.jpg
       bio: Software and machine learning expert
+    - name: Cody Aldaz
+      title: Data Scientist
+      img: /img/profile-cody.jpg
+      bio: Expert in theoretical chemistry and deep learning
+      link: https://www.linkedin.com/in/cody-aldaz
 ---
 
