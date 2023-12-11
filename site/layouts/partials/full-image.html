@@ -1,0 +1,14 @@
+<div class="bg-white pv4">
+	<div class="ph3 mw7 center">
+
+		<h2 class="f2 b lh-title mb2 hideme">{{.heading}}</h2>
+		<h4 class="mb3 hideme">{{.text}}</h4>
+		<img src="{{.imageUrl}}" alt="" class="mb3 w-100 hideme">
+		
+		{{ if .buttontext }}
+		<div class="tc">
+			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
+		</div>
+		{{ end }}
+	</div>
+</div>

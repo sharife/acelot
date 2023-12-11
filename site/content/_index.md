@@ -6,6 +6,20 @@ intro:
     heading: "A Unified Approach"
     image: img/diagram.png
     text: "Our novel machine learning and in vitro assay platform identifies small molecules that act specifically upon toxic forms of proteins found in neurodegenerative diseases."
+approach:
+    heading: "A Unified Approach"
+    text: "We combine actively learning generative AI, in-house assays, and molecular dynamic simulations to unlock novel insights into targeting misfolded proteins where no crystal structures of the target exist."
+    items:
+      - heading: Generative AI + ML
+        image: img/icon-ml.png
+      - heading: In-house assays
+        image: img/icon-assay.png
+      - heading: Dynamic Simulations
+        image: img/icon-sim.png
+pipeline:
+    heading: "Our Pipeline"
+    image: img/pipeline-v4.png
+    text: "Acelot has assets across multiple targets and diseases."
 people:
   heading: Our Team
   items:
@@ -53,5 +67,12 @@ people:
       img: /img/profile-cody.jpg
       bio: Expert in theoretical chemistry and deep learning
       link: https://www.linkedin.com/in/cody-aldaz
+advisors:
+  heading: Advisors
+  items:
+    - name: David Bleakman
+      img: /img/profile-katie.jpg
+      bio: Former CSO, Eli Lilly Neuroscience; Former CSO, Redpin Therapeutics; President, Drug Discovery Psychogenics
+      link: https://www.linkedin.com/in/david-bleakman-phd
 ---
 

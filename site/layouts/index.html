@@ -6,17 +6,21 @@
 
 <div class="fade-4">
 
-{{ partial "text-and-image" (dict "heading" .Params.intro.heading "text" .Params.intro.text "imageUrl" .Params.intro.image) }}
+	<!-- {{ partial "text-and-image" (dict "heading" .Params.intro.heading "text" .Params.intro.text "imageUrl" .Params.intro.image) }} -->
 
-<div name="team" class="hideme">
-	{{ partial "4-up" .Params.people }}
-</div>
+	{{ partial "3-up" .Params.approach }}
 
+	{{ partial "full-image" (dict "heading" .Params.pipeline.heading "text" .Params.pipeline.text "imageUrl" .Params.pipeline.image) }}
 
-<div name="pubs" class="hideme">
-	{{ partial "pubs" . }}
-</div>
+	<div name="team" class="hideme">
+		{{ partial "4-up" .Params.people }}
+		
+		{{ partial "4-up" .Params.advisors }}
+	</div>
 
+	<div name="pubs" class="hideme">
+		{{ partial "pubs" . }}
+	</div>
 
 </div>
 
