@@ -10,11 +10,11 @@
 
 	{{ partial "3-up" .Params.approach }}
 
-	{{ partial "full-image" (dict "heading" .Params.pipeline.heading "text" .Params.pipeline.text "imageUrl" .Params.pipeline.image) }}
+	{{ partial "full-image" (dict "heading" .Params.pipeline.heading "text" .Params.pipeline.text "imageUrl" .Params.pipeline.image "imageAlt" .Params.pipeline.imagealt) }}
 
 	<div name="team" class="hideme">
 		{{ partial "4-up" .Params.people }}
-		
+
 		{{ partial "4-up" .Params.advisors }}
 	</div>
 

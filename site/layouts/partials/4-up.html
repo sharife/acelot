@@ -1,11 +1,12 @@
 <div class="bg-white pv4">
 	<div class="ph3 mw7 center">
-		<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
-		<p class="mb4 mw6">{{.description}}</p>
+		{{if .heading }}<h2 class="f2 b lh-title mb2">{{.heading}}</h2>{{ end }}
+		{{if .subhead }}<h2 class="f3 b lh-title mb3">{{.subhead}}</h2>{{ end }}
+		{{if .description }}<p class="mb4 mw6">{{.description}}</p>{{ end }}
 
 		<div class="flex flex-wrap mhn2-ns mb3">
 			{{ range .items }}
-				<div class="ph2 w-100 w-50-l mb4 flex">
+				<div class="w-100 w-50-l mb4 flex pr3">
 					<div class="w-25 pr3"><img src="{{ .img }}" alt="" class="center db mb3 w-100 br1"></div>
 					<div class="w-75">
 						<p class="lh-title b mb0">{{ .name }}</p>

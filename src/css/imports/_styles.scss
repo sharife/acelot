@@ -56,6 +56,20 @@ body {
   }
 }
 
+.imgv {
+  display: none;
+}
+
+
+@media only screen and (max-width: 640px) {
+  .imgv {
+    display: inline;
+  }
+  .imgh {
+    display: none;
+  }
+}
+
 
 .fade-1, .fade-2, .fade-3, .fade-4, .hideme {
   opacity: 0;
