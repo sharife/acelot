@@ -22,41 +22,41 @@ people:
   items:
     - name: Katie Planey
       title: CEO, MBA, PhD
-      img: /img/ansa-team-katie.jpg
+      img: /img/acelot-team-katie.jpg
       bio: Leader in building data-driven biotech companies
       link: https://www.linkedin.com/in/katieplaney
     - name: Lewis Whitehead
       title: VP of Research, Computational Discovery
-      img: /img/ansa-team-lewis.jpg
+      img: /img/acelot-team-lewis.jpg
       bio: Computational medicinal chemist with expertise in small molecule drug discovery
       link: https://www.linkedin.com/in/lewis-whitehead-4003455/
     - name: Vidhu Mathur
       title: Director of Research, Preclinical, PhD
-      img: /img/ansa-team-vidhu.jpg
+      img: /img/acelot-team-vidhu.jpg
       bio: Neurodegenerative preclinical research expert
       link: https://www.linkedin.com/in/vidhumathur
     - name: Eric Shao
       title: Senior Scientist I, PhD
-      img: /img/ansa-team-eric.jpg
+      img: /img/acelot-team-eric.jpg
       bio: Expert in molecular biology and tau-targeting therapies
       link: https://www.linkedin.com/in/eric-qiang-shao-824aab100
     - name: Marcela Kokes
       title: Senior Scientist I, PhD
-      img: /img/ansa-team-marcela.jpg
+      img: /img/acelot-team-marcela.jpg
       bio: Expert in cell biology and mechanistic biology
       link: https://www.linkedin.com/in/marcelakokes
     - name: Shruti Arya
       title: Senior Scientist I, PhD
-      img: /img/ansa-team-shruti.jpg
+      img: /img/acelot-team-shruti.jpg
       bio: Expert in protein biophysics/biochemistry and molecular mechanisms of neurodegenerative diseases
       link: https://www.linkedin.com/in/aryashruti
     - name: XXXX
       title: XXXX
-      img: /img/ansa-team-website.jpg
+      img: /img/acelot-team-website.jpg
       bio: XXXX
     - name: Cody Aldaz
       title: Data Scientist
-      img: /img/ansa-team-cody.jpg
+      img: /img/acelot-team-cody.jpg
       bio: Expert in theoretical chemistry and deep learning
       link: https://www.linkedin.com/in/cody-aldaz
 advisors:
