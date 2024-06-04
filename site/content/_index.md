@@ -35,11 +35,11 @@ people:
       img: /img/acelot-team-vidhu.jpg
       bio: Neurodegenerative preclinical research expert
       link: https://www.linkedin.com/in/vidhumathur
-    - name: Eric Shao
+    - name: Andrew Carr
       title: Senior Scientist I, PhD
-      img: /img/acelot-team-eric.jpg
-      bio: Expert in molecular biology and tau-targeting therapies
-      link: https://www.linkedin.com/in/eric-qiang-shao-824aab100
+      img: /img/acelot-team-andrew.jpg
+      bio: Expert in algorithms, machine learning, and database design
+      link: https://www.linkedin.com/in/d-andrew-carr-65534849/
     - name: Marcela Kokes
       title: Senior Scientist I, PhD
       img: /img/acelot-team-marcela.jpg
@@ -50,15 +50,20 @@ people:
       img: /img/acelot-team-shruti.jpg
       bio: Expert in protein biophysics/biochemistry and molecular mechanisms of neurodegenerative diseases
       link: https://www.linkedin.com/in/aryashruti
-    - name: XXXX
-      title: XXXX
-      img: /img/acelot-team-website.jpg
-      bio: XXXX
+    - name: Devi Supriya Korumilli
+      title: Research Associate
+      img: /img/acelot-team-devi.jpg
+      bio: Experienced in next generation sequencing and Neuroscience enthusiast
+      link: https://www.linkedin.com/in/devi-supriya-korumilli/
     - name: Cody Aldaz
       title: Data Scientist
       img: /img/acelot-team-cody.jpg
       bio: Expert in theoretical chemistry and deep learning
       link: https://www.linkedin.com/in/cody-aldaz
+    - name: Kevin Burk
+      title: Data Scientist, MS
+      img: /img/acelot-team-kevin.jpg
+      bio: Software and machine learning expert
 advisors:
   subhead: Advisors
   items:
